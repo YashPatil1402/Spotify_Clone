@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="logo">Spotify</li>
+            <li>Home</li>
+            <li>Favourites</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Best of NCS - No Copyright Sounds</h1>
+
+        <div class="songList">
+            <div class="songItems">
+                <img alt="cover">
+                <span class="songName">Song Name</span>
+                <span class="timestamp">00:00</span>
+                <i id="0" class="fas songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItems">
+                <img alt="cover">
+                <span class="songName">Song Name</span>
+                <span class="timestamp">00:00</span>
+                <i id="1" class="fas songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItems">
+                <img alt="cover">
+                <span class="songName">Song Name</span>
+                <span class="timestamp">00:00</span>
+                <i id="2" class="fas songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItems">
+                <img alt="cover">
+                <span class="songName">Song Name</span>
+                <span class="timestamp">00:00</span>
+                <i id="3" class="fas songItemPlay fa-play-circle"></i>
+            </div>
+
+            <div class="songItems">
+                <img alt="cover">
+                <span class="songName">Song Name</span>
+                <span class="timestamp">00:00</span>
+                <i id="4" class="fas songItemPlay fa-play-circle"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+
+        <div class="icons">
+            <i class="fas fa-step-backward" id="previous"></i>
+            <i class="fas fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-step-forward" id="next"></i>
+        </div>
+
+        <div class="songinfo">
+            <img src="playing.gif" alt="playing" id="gif">
+            <span id="mastersongname">Welcome to Spotify</span>
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
